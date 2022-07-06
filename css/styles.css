@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  font-family: "Neue Montreal";
+}
+.home {
+  overflow: hidden;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+.menu__logo,
+.menu__items-link {
+  padding: 40px;
+}
+.menu__logo a {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu__items {
+  display: flex;
+}
+.menu__items-link a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.menu__items-link.active a {
+  text-decoration: underline;
+}
+.container {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.container__item {
+  position: relative;
+  width: 540px;
+  height: 360px;
+  margin: 50px;
+}
