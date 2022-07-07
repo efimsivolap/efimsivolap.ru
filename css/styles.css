@@ -304,6 +304,35 @@ p.about__container-link {
 }
 .icons {
   position: absolute;
-  top: 50%;
-  left: 50%;
+}
+.icons a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+div i {
+  color: #87ceeb;
+  margin-top: 10px;
+}
+div a {
+  font-size: 30px;
+}
+a:hover {
+  background: #87ceeb;
+  transition: 0.8s;
+}
+a:hover i {
+  color: #fff;
+  transition: 1s;
+  transform: scale(1.8);
+}
+.photo__efim {
+  width: 500px;
+  position: relative;
+  left: 1100px;
+  bottom: 350px;
 }
